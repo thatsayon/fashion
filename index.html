@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mid Fashion</title>
+    <script
+      src="https://kit.fontawesome.com/64dfb94aa4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="d-flex align-items-center justify-content-around navi"
+        ,
+        style="background-color: #1a187a"
+      >
+        <div class="desimg">
+          <img
+            src="./resources/Group 2.png"
+            alt=""
+            class="navimg"
+            style="width: 250px"
+          />
+        </div>
+
+        <div
+          class="d-flex align-items-center bg-light rounded navli"
+          style="padding: 10px; width: 30rem"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="Search"
+            class="border-0 fw-bold"
+            style="outline: none; flex: 1; margin-left: 0.5rem"
+          />
+        </div>
+
+        <div class="d-flex navli">
+          <ul class="d-flex mt-3 text-white list-unstyled navli">
+            <li class="">Home</li>
+            <li class="">About</li>
+            <li class="" style="white-space: nowrap">Contact Us</li>
+            <li class="">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+            <li class="">
+              <i class="fa-regular fa-user"></i>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner" style="height: 70vh">
+            <div
+              class="carousel-item active slider d-flex flex-md-row flex-column align-items-center justify-content-center"
+            >
+              <!-- <img src="./resources/bg.png" class="d-block w-100" alt="..." style="height: 70vh; object-fit: cover;"/> -->
+              <div class="mx-5 lh-1 mb-4">
+                <p class="pro">Pro.Beyond</p>
+                <h1 class="sliderp">
+                  IPhone <span class="fw-bolder">14 Pro</span>
+                </h1>
+                <p>Created to change everything for the better. For everyone</p>
+                <button class="shopnow">Shop Now</button>
+              </div>
+              <div class="bi">
+                <img src="./resources/iphone.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="d-flex h-75 finfo">
+      <div class="w-50">
+        <!-- ipad 9  -->
+        <div class="d-flex align-items-center ipad9">
+          <div class="">
+            <img src="./resources/ipad.png" alt="" class="ipad" />
+          </div>
+          <div>
+            <h1>iPad 9</h1>
+            <p>
+              iPad (9th gen.) has the powerful A13 Bionic chip, a 12MP Ultra
+              Wide front camera with Center Stage, True Tone display technology,
+              and 64GB storage.
+            </p>
+          </div>
+        </div>
+        <!-- apple airpods  -->
+        <div
+          style="background-color: #adc2d7"
+          class="d-flex appleair align-items-center"
+        >
+          <div>
+            <img
+              src="./resources/hero__gnfk5g59t0qe_xlarge_2x 1.png"
+              alt=""
+              class="airimg"
+            />
+          </div>
+          <div class="px-5">
+            <h1 style="font-family: Montserrat">
+              Apple Airpods <br />
+              <span class="fw-bolder">Max</span>
+            </h1>
+            <p class="text-white">
+              AirPods Max combine high-fidelity audio with industry-leading
+              Active Noise Cancellation to deliver an unparalleled listening
+              experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- macbook  -->
+      <div
+        class="w-50 d-flex justify-content-center align-items-center macbook"
+        style="background-color: #ededed"
+      >
+        <div>
+          <h1 style="font-family: Montserrat; font-size: 64px" class="lh-1">
+            Macbook <br /><span class="fw-bolder">Air</span>
+          </h1>
+          <p style="color: #909090; font-family: Montserrat; font-size: 16px">
+            Our most popular laptop, MacBook Air is supercharged by M1 and M2
+            chips. Featuring FaceTime HD camera, Touch ID, and vibrant Retina
+            display.
+          </p>
+          <button class="shopnow">Shop Now</button>
+        </div>
+        <div>
+          <img src="./resources/Group 6.png" alt="" class="w-100" />
+        </div>
+      </div>
+    </section>
+
+    <!-- category section  -->
+    <section
+      class="pt-4"
+      style="background-color: #fafafa; padding-bottom: 2rem"
+    >
+      <div>
+        <div
+          class="d-flex justify-content-around align-items-center w-100 m-auto cath"
+        >
+          <h1>Browse By Category</h1>
+          <div class="rl">
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div
+          class="d-md-flex justify-content-center categories w-75 align-items-center m-auto bcat"
+        >
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-mobile"></i>
+            <p>Phones</p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <!-- <img src="./resources/Smart Watches.svg" alt=""> -->
+            <i class="fa-solid fa-stopwatch"></i>
+            <p>Smart Watches</p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-camera"></i>
+            <p>Cameras</p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-headphones"></i>
+            <p>Headphones</p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-computer"></i>
+            <p>Computers</p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-gamepad"></i>
+            <p>Games</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section  -->
+    <section style="margin-top: 1rem; margin-bottom: 2rem">
+      <div class="d-flex w-75 m-auto na">
+        <h2 style="border-bottom: 2px solid black">New Arrival</h2>
+        <h2 style="opacity: 0.7">Best Sellter</h2>
+        <h2 style="opacity: 0.7">Featured Product</h2>
+      </div>
+
+      <div class="d-md-flex w-75 m-auto prod">
+        <div class="product">
+          <div class="float-end">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img src="./resources/Iphone 14 pro 1-2.png" alt="" />
+            <p>Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</p>
+            <p class="fw-bolder fs-1">$900</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="float-end">
+            <i class="fa-solid fa-heart" style="color: red"></i>
+          </div>
+
+          <div class="d-flex flex-column align-items-center">
+            <img src="./resources/Iphone 14 pro 1-3.png" alt="" />
+            <p>Blackmagic Pocket Cinema Camera 6k</p>
+            <p class="fw-bolder fs-1">$2535</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="float-end">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img src="./resources/Iphone 14 pro 1-1.png" alt="" />
+            <p>Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</p>
+            <p class="fw-bolder fs-1">$399</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="float-end">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <img src="./resources/Iphone 14 pro 1.png" alt="" />
+            <p>AirPods Max Silver</p>
+            <p class="fw-bolder fs-1">$2535</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sale  -->
+    <section style="background-color: #958ad4">
+      <div
+        class="d-flex align-items-center justify-content-around w-100 eleven"
+      >
+        <div class="im1">
+          <img src="./resources/image 19.png" alt="" class="w-50" />
+        </div>
+
+        <div class="text-center offertext">
+          <h1>
+            <span style="color: #25177b">11.11</span
+            ><span style="color: #fff"> Sale</span>
+          </h1>
+          <p>
+            Don't miss the biggest sale of this year. Just wait some few days
+            and the sell will be started
+          </p>
+        </div>
+
+        <div class="im2">
+          <img src="./resources/Group 6.png" alt="" class="w-75" />
+        </div>
+      </div>
+    </section>
+
+    <footer style="background-color: #0e071b">
+      <div
+        class="d-flex justify-content-around foot"
+        style="padding: 4rem 16rem"
+      >
+        <div>
+          <img src="./resources/Group 2.png" alt="" style="width: 20rem" />
+        </div>
+        <div>
+          <ul class="text-white social">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </ul>
+        </div>
+        <div class="text-secondary">
+          <h3>Services</h3>
+          <p>Bonus Program</p>
+          <p>Gift Cards</p>
+          <p>Credit and Payment</p>
+          <p>Service contacts</p>
+          <p>Payment</p>
+        </div>
+        <div class="text-secondary">
+          <h3>Assistance to the buyer</h3>
+          <p>Find an order</p>
+          <p>Terms of delivery</p>
+          <p>Exchange and return of goods</p>
+          <p>Guarantee</p>
+          <p>F.A.Q</p>
+          <p>Terms of use of the site</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
